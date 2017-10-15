@@ -395,13 +395,7 @@ public class mTSP {
 				while(k <= 9){
 					float custoAtual = custoSolucao(solucao);
 					if(k == 1){
-						/*System.out.print("S: ");
-					    printSolucao(solucao);
-						System.out.println("Custo S: " + custoSolucao(solucao));*/
 						solucaoVizinha = Vizinhanca2_OPT(copiaVetorSolucao(solucao));
-						/*System.out.print("S': ");
-					    printSolucaoVizinha(solucaoVizinha);
-						System.out.println("Custo S': " + custoSolucaoVizinha(solucaoVizinha));*/
 					}
 					else if(k == 2){
 						solucaoVizinha = VizinhancaOr_OPT(copiaVetorSolucao(solucao));
